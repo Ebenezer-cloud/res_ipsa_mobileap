@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "345916142601",
+    "project_id": "res-ipsa-pdl5i3",
+    "storage_bucket": "res-ipsa-pdl5i3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345916142601:android:976df6c3abcd65a93474d8",
+        "android_client_info": {
+          "package_name": "com.mycompany.resipsa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2iOBztZUrfAEd1yR9OA3pUfnMKzA3L2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

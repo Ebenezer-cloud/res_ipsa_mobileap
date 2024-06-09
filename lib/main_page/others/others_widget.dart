@@ -112,7 +112,7 @@ class _OthersWidgetState extends State<OthersWidget> {
                                 padding: const EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 0.0, 12.0),
                                 child: Text(
-                                  'Locate other services in the court building',
+                                  'Locate other services in the court building ',
                                   style: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
@@ -523,7 +523,7 @@ class _OthersWidgetState extends State<OthersWidget> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 24.0),
+                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 0.0),
                 child: Container(
                   width: MediaQuery.sizeOf(context).width * 0.96,
                   decoration: BoxDecoration(
@@ -642,7 +642,7 @@ class _OthersWidgetState extends State<OthersWidget> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 24.0),
+                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 0.0),
                 child: Container(
                   width: MediaQuery.sizeOf(context).width * 0.96,
                   decoration: BoxDecoration(

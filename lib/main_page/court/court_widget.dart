@@ -521,7 +521,7 @@ class _CourtWidgetState extends State<CourtWidget> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 24.0),
+                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 0.0),
                 child: Container(
                   width: MediaQuery.sizeOf(context).width * 0.96,
                   decoration: BoxDecoration(
@@ -640,7 +640,7 @@ class _CourtWidgetState extends State<CourtWidget> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 24.0),
+                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 0.0),
                 child: Container(
                   width: MediaQuery.sizeOf(context).width * 0.96,
                   decoration: BoxDecoration(

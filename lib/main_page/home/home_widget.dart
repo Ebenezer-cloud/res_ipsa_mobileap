@@ -84,17 +84,21 @@ class _HomeWidgetState extends State<HomeWidget> {
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Expanded(
-                    child: Text(
-                      'Welcome',
-                      textAlign: TextAlign.center,
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Open Sans',
-                            fontSize: 35.0,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.w500,
-                            useGoogleFonts:
-                                GoogleFonts.asMap().containsKey('Open Sans'),
-                          ),
+                    child: Padding(
+                      padding:
+                          const EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
+                      child: Text(
+                        'Welcome',
+                        textAlign: TextAlign.center,
+                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                              fontFamily: 'Open Sans',
+                              fontSize: 35.0,
+                              letterSpacing: 0.0,
+                              fontWeight: FontWeight.w500,
+                              useGoogleFonts:
+                                  GoogleFonts.asMap().containsKey('Open Sans'),
+                            ),
+                      ),
                     ),
                   ),
                 ],
@@ -104,7 +108,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                 children: [
                   Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 10.0, 0.0),
+                        const EdgeInsetsDirectional.fromSTEB(10.0, 10.0, 10.0, 0.0),
                     child: Text(
                       'The purpose of this App is to reduce the stress and challenges lawyers, court users, and the public go through when locating or accessing the various High Court, Registries, and other services within The Law Court Complex, Accra.',
                       textAlign: TextAlign.start,
@@ -120,7 +124,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                 ],
               ),
               Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 25.0, 0.0, 0.0),
+                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 35.0, 0.0, 0.0),
                 child: Row(
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -135,7 +139,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                           },
                           text: 'COURT',
                           options: FFButtonOptions(
-                            height: 40.0,
+                            height: 50.0,
                             padding: const EdgeInsetsDirectional.fromSTEB(
                                 24.0, 0.0, 24.0, 0.0),
                             iconPadding: const EdgeInsetsDirectional.fromSTEB(
@@ -157,7 +161,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                               color: Colors.transparent,
                               width: 1.0,
                             ),
-                            borderRadius: BorderRadius.circular(8.0),
+                            borderRadius: BorderRadius.circular(12.0),
                           ),
                         ),
                       ),
@@ -172,7 +176,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                           },
                           text: 'ABOUT',
                           options: FFButtonOptions(
-                            height: 40.0,
+                            height: 50.0,
                             padding: const EdgeInsetsDirectional.fromSTEB(
                                 24.0, 0.0, 24.0, 0.0),
                             iconPadding: const EdgeInsetsDirectional.fromSTEB(
@@ -194,7 +198,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                               color: Colors.transparent,
                               width: 1.0,
                             ),
-                            borderRadius: BorderRadius.circular(8.0),
+                            borderRadius: BorderRadius.circular(12.0),
                           ),
                         ),
                       ),
@@ -218,7 +222,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                           },
                           text: 'REGISTRIES',
                           options: FFButtonOptions(
-                            height: 40.0,
+                            height: 50.0,
                             padding: const EdgeInsetsDirectional.fromSTEB(
                                 24.0, 0.0, 24.0, 0.0),
                             iconPadding: const EdgeInsetsDirectional.fromSTEB(
@@ -240,7 +244,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                               color: Colors.transparent,
                               width: 1.0,
                             ),
-                            borderRadius: BorderRadius.circular(8.0),
+                            borderRadius: BorderRadius.circular(12.0),
                           ),
                         ),
                       ),
@@ -255,7 +259,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                           },
                           text: 'OTHERS',
                           options: FFButtonOptions(
-                            height: 40.0,
+                            height: 50.0,
                             padding: const EdgeInsetsDirectional.fromSTEB(
                                 24.0, 0.0, 24.0, 0.0),
                             iconPadding: const EdgeInsetsDirectional.fromSTEB(
@@ -277,7 +281,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                               color: Colors.transparent,
                               width: 1.0,
                             ),
-                            borderRadius: BorderRadius.circular(8.0),
+                            borderRadius: BorderRadius.circular(12.0),
                           ),
                         ),
                       ),

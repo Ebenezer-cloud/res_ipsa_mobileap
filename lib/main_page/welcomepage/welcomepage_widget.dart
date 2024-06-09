@@ -49,7 +49,7 @@ class _WelcomepageWidgetState extends State<WelcomepageWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 33.0, 0.0, 0.0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 65.0, 0.0, 0.0),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(8.0),
                     child: Image.asset(
@@ -90,7 +90,8 @@ class _WelcomepageWidgetState extends State<WelcomepageWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(10.0, 8.0, 15.0, 0.0),
+                  padding:
+                      const EdgeInsetsDirectional.fromSTEB(10.0, 15.0, 15.0, 0.0),
                   child: Text(
                     'A mobile application specically designed to aid lawyers, court users, and the public to easily locate and identify the various high courts and other services within The Court Complex, Accra.',
                     textAlign: TextAlign.start,
@@ -106,7 +107,7 @@ class _WelcomepageWidgetState extends State<WelcomepageWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 30.0, 0.0, 0.0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 35.0, 0.0, 0.0),
                   child: FFButtonWidget(
                     onPressed: () async {
                       context.goNamed('Home');

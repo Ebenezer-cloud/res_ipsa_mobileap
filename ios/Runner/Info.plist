@@ -22,7 +22,18 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
-	<array>        <dict>
+	<array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <!--FF_REVERSED_CLIENT_ID-->
+                
+            </array>
+        </dict>
+
+        <dict>
         <key>CFBundleTypeRole</key>
         <string>Editor</string>
         <key>CFBundleURLName</key>
@@ -47,6 +58,8 @@
     <string>Allow APP to access your calender on your device.</string>
 	<key>PermissionGroupNotification</key>
     <string>Allow APP send  notifications to your device.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+    <string>Allow APP  have access to your location.</string>
 
 
 	<key>UILaunchStoryboardName</key>
