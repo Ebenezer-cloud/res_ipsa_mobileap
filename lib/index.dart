@@ -39,5 +39,3 @@ export '/others/other_fourth_floor/other_fourth_floor_widget.dart'
     show OtherFourthFloorWidget;
 export '/others/other_fifth_floor/other_fifth_floor_widget.dart'
     show OtherFifthFloorWidget;
-export '/log_in/log_in_widget.dart' show LogInWidget;
-export '/sign_up/sign_up_widget.dart' show SignUpWidget;
